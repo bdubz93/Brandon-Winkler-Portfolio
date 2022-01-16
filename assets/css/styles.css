@@ -74,8 +74,6 @@
   
   
   footer {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     bottom: 0;
     padding: 10px;
@@ -243,36 +241,42 @@
 
 @media screen and (max-width: 992) {
   main,
+  header,
   nav,
   .hero,
   body,
   .projects-container,
   .project-container,
   footer {
+    width: 100%;
     flex-direction: column;
     justify-content: center;
   }
 }
 @media screen and (max-width: 768px) {
   main,
+  header,
   nav,
   .hero,
   body,
   .projects-container,
   .project-container,
   footer {
+    width: 100%;
     flex-direction: column;
     justify-content: center;
   }
 }
 @media screen and (max-width: 480px) {
   main,
+  header,
   nav,
   .hero,
   body,
   .projects-container,
   .project-container,
   footer {
+    width: 100%;
     flex-direction: column;
     justify-content: center;
   }
