@@ -251,6 +251,11 @@
     
   }
 
+  header {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
 
   nav ul li {
     margin: 8px;
@@ -317,6 +322,13 @@
     width: 10rem;
     flex-direction: column;
   }
+  
+  header {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+
 
   .bio {
     width: 18.3rem;
