@@ -25,7 +25,7 @@ A portfolio website built to aid in my career search
 - Learning material
 - Reference sheet for HTML and CSS elements
 
-![Website full page screenshot](assets/images/screenshot.png)
+![Website full page screenshot](screenshot.png)
 
 ## Credits
 - https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
