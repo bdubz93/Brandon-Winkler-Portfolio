@@ -15,7 +15,7 @@ A portfolio website built to aid in my career search
 - Building this website, I learned a lot about media querys, containers, and selector types like hover. I also furthered my knowledge in HTML and CSS.
 
 ## Sample Website
-[DEMO LINK](https://bdubz93.github.io/Portfolio/) 
+[DEMO LINK](https://bdubz93.github.io/Brandon-Winkler-Portfolio/) 
 ## Installation
 - Click the green code button on GitHub
 - Select clone, GitHub Desktop, or download ZIP
