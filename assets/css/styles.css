@@ -40,6 +40,7 @@
     background-color: var(--bgcolor1);
     color:var(--textcolor);
     margin-bottom: 50px;
+    z-index: 1; /* ---Set a z-index here--- */
   }
   
   h1 {
@@ -55,12 +56,12 @@
   nav ul {
     display: flex;
     justify-content: space-between;
-    min-width: 300px;
+    min-width: 400px;
     margin-right: 50px;
   }
     
   nav a {
-    color: #b9c6ae;
+    color:var(--textcolor);
     font-weight: bold;
     font-size: 125%;
     text-decoration: none;
@@ -106,6 +107,7 @@
   }
 
   div a {
+    font-size: 125%;
     color:black;
     text-decoration: none;
   }
@@ -114,20 +116,6 @@
     color: var(--bgcolor3)
   }
   
-  
-
-  #section {
-    margin-left: 20px;
-    color: white;
-  }
-  #social img {
-    opacity: 50%;
-  }
-  #social:hover img {
-    opacity:100%;
-    transform: scale(1.1);  
-  }
-
   /* Hero section */
 .hero {
   display: flex;
@@ -172,10 +160,7 @@
 }
 
 .project-card:hover {
-  color: var(--bgcolor3);
   border-width: 3px;
-  text-size-adjust: 150%;
-  opacity:100%;
   transform: scale(1.1);  
 }
 
@@ -216,6 +201,7 @@
 }
 
 .project-title {
+  font-size: 125%;
   margin-bottom: var(--bottom-margin);
 }
 
@@ -235,10 +221,28 @@
 }
 
 .socicon {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.socicon:hover {
+  transform: scale(1.3);  
+}
+/* Social button ends */
+
+/* Scroll to top button */
+.scroll-up {
+  position: fixed;
+  right: 0.5%;
+  bottom: 3%;
+  cursor: pointer;
+}
+
+.up-arrow {
   width: 3rem;
   height: 3rem;
 }
-/* Social button ends */
+/* Scroll to top button ends */
 
 /* Media queries for responsiveness */
 @media screen and (max-width: 720px) {
