@@ -156,13 +156,27 @@
   border-radius: 11px;
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
-  margin: 10px;
+  margin: 30px;
+}
+
+.first {
+  transform: scale(1.1); 
+}
+.first:hover {
+  border-width: 3px;
+  transform: scale(1.2);  
 }
 
 .project-pic {
+  max-width: 300px;
+  max-height: 150px;
+}
+
+.project-pic-first {
   max-width: 400px;
   max-height: 200px;
 }
+
 
 .projects-container {
   display: flex;
@@ -298,6 +312,11 @@
   .project-pic{
     width: 15rem;
   }
+
+  .project-pic-first{
+    width: 18rem;
+  }
+
   .project-container {
     width: 20.875rem;
   }
